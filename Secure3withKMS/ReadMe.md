@@ -2,14 +2,14 @@ AWS S3 Bucket with Server-Side Encryption Using KMS
 
 This project demonstrates how to securely configure an Amazon S3 bucket to use AWS Key Management Service (KMS). The goal is to apply fine-grained control and encryption auditing to all objects uploaded to the bucket.
 
-Objectives
+**Objectives**
 
 - Create a secure AWS S3 bucket for object storage.
 - Generate a symmetric KMS key for encryption.
 - Enable server-side encryption for the S3 bucket using the KMS key.
 - Upload objects and verify that encryption is applied for data-at-rest protection purposes.
 
-Prerequisites
+**Prerequisites**
 
 - AWS account with root and IAM access
 - AWS CLI or access to AWS Console
